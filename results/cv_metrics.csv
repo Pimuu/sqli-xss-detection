@@ -1,0 +1,6 @@
+model,model_name,accuracy_mean,accuracy_std,macro_precision_mean,macro_precision_std,macro_recall_mean,macro_recall_std,macro_f1_mean,macro_f1_std,bin_f1_mean,bin_f1_std,bin_fpr_mean,bin_fpr_std,roc_auc_mean,roc_auc_std
+tfidf_nb,TF-IDF + Naive Bayes,0.9875,0.00245,0.99048,0.00193,0.9846,0.00301,0.98746,0.00246,0.98739,0.00249,0.0038,0.00144,0.99815,0.0005
+tfidf_lr,TF-IDF + LogReg,0.99925,0.00047,0.99947,0.00034,0.99903,0.00061,0.99925,0.00047,0.99925,0.00047,0.0001,0.00022,1.0,0.0
+tfidf_svm,TF-IDF + Linear SVM,0.99975,0.00018,0.9998,0.00014,0.9997,0.00025,0.99975,0.00018,0.99975,0.00018,0.0001,0.00022,1.0,0.0
+hand_rf,Hand-crafted + Random Forest,0.9977,0.00101,0.99804,0.00054,0.99733,0.00148,0.99768,0.00101,0.99775,0.00102,0.0012,0.00045,0.99997,2e-05
+hybrid_lr,Hybrid + LogReg,0.99825,0.00087,0.99833,0.00105,0.9981,0.00078,0.99822,0.00089,0.99835,0.0008,0.0013,0.0014,0.99997,3e-05
