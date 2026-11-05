@@ -1,0 +1,122 @@
+{
+ "n_rows": 20000,
+ "class_counts": {
+  "benign": 10000,
+  "sqli": 5000,
+  "xss": 5000
+ },
+ "best_model": "tfidf_svm",
+ "best_model_name": "TF-IDF + Linear SVM",
+ "e1_test_size": 4000,
+ "e3_train_size": 15143,
+ "e3_test_size": 4857,
+ "e3_best_model": "hybrid_lr",
+ "e3_canonical": {
+  "tfidf_nb": {
+   "accuracy": 0.89479,
+   "macro_f1": 0.8958,
+   "bin_recall": 0.83164,
+   "bin_fpr": 0.0045
+  },
+  "tfidf_lr": {
+   "accuracy": 0.88203,
+   "macro_f1": 0.88449,
+   "bin_recall": 0.79944,
+   "bin_fpr": 0.0
+  },
+  "tfidf_svm": {
+   "accuracy": 0.88882,
+   "macro_f1": 0.8912,
+   "bin_recall": 0.81099,
+   "bin_fpr": 0.0
+  },
+  "hand_rf": {
+   "accuracy": 0.93865,
+   "macro_f1": 0.94096,
+   "bin_recall": 0.89604,
+   "bin_fpr": 0.0005
+  },
+  "hybrid_lr": {
+   "accuracy": 0.96335,
+   "macro_f1": 0.96453,
+   "bin_recall": 0.9391,
+   "bin_fpr": 0.002
+  }
+ },
+ "e4_window48_shift": {
+  "tfidf_nb": {
+   "accuracy": 0.97673,
+   "macro_f1": 0.97594,
+   "bin_recall": 0.97095,
+   "bin_fpr": 0.0045,
+   "padding_detection": 0.82708
+  },
+  "tfidf_lr": {
+   "accuracy": 0.98229,
+   "macro_f1": 0.98278,
+   "bin_recall": 0.9706,
+   "bin_fpr": 0.001,
+   "padding_detection": 0.91667
+  },
+  "tfidf_svm": {
+   "accuracy": 0.98909,
+   "macro_f1": 0.98947,
+   "bin_recall": 0.98145,
+   "bin_fpr": 0.0,
+   "padding_detection": 0.9625
+  },
+  "hand_rf": {
+   "accuracy": 0.93144,
+   "macro_f1": 0.9322,
+   "bin_recall": 0.88554,
+   "bin_fpr": 0.003,
+   "padding_detection": 0.72292
+  },
+  "hybrid_lr": {
+   "accuracy": 0.96932,
+   "macro_f1": 0.96884,
+   "bin_recall": 0.94995,
+   "bin_fpr": 0.0015,
+   "padding_detection": 0.90625
+  }
+ },
+ "e5_mean_detection": {
+  "hand_rf": 0.95369,
+  "hybrid_lr": 0.93244,
+  "tfidf_lr": 0.79788,
+  "tfidf_nb": 0.89492,
+  "tfidf_svm": 0.81836
+ },
+ "e1_canonical": {
+  "tfidf_nb": {
+   "accuracy": 0.9825,
+   "macro_f1": 0.98241,
+   "bin_fpr": 0.003,
+   "roc_auc": 0.99711
+  },
+  "tfidf_lr": {
+   "accuracy": 0.9995,
+   "macro_f1": 0.9995,
+   "bin_fpr": 0.0,
+   "roc_auc": 1.0
+  },
+  "tfidf_svm": {
+   "accuracy": 1.0,
+   "macro_f1": 1.0,
+   "bin_fpr": 0.0,
+   "roc_auc": 1.0
+  },
+  "hand_rf": {
+   "accuracy": 0.9975,
+   "macro_f1": 0.9975,
+   "bin_fpr": 0.0015,
+   "roc_auc": 0.99998
+  },
+  "hybrid_lr": {
+   "accuracy": 0.997,
+   "macro_f1": 0.99691,
+   "bin_fpr": 0.002,
+   "roc_auc": 0.99995
+  }
+ }
+}

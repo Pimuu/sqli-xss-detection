@@ -1,0 +1,71 @@
+model,model_name,label,family,n,detection_rate,exact_recall,benign_fpr
+tfidf_nb,TF-IDF + Naive Bayes,sqli,boolean_blind,767,0.96741,0.96741,0.001
+tfidf_lr,TF-IDF + LogReg,sqli,boolean_blind,767,0.92047,0.92047,0.0
+tfidf_svm,TF-IDF + Linear SVM,sqli,boolean_blind,767,0.91656,0.91656,0.0
+hand_rf,Hand-crafted + Random Forest,sqli,boolean_blind,767,0.99348,0.99348,0.002
+hybrid_lr,Hybrid + LogReg,sqli,boolean_blind,767,0.99478,0.99478,0.002
+tfidf_nb,TF-IDF + Naive Bayes,sqli,error_based,681,0.97651,0.97651,0.003
+tfidf_lr,TF-IDF + LogReg,sqli,error_based,681,1.0,1.0,0.0
+tfidf_svm,TF-IDF + Linear SVM,sqli,error_based,681,1.0,1.0,0.0
+hand_rf,Hand-crafted + Random Forest,sqli,error_based,681,1.0,1.0,0.002
+hybrid_lr,Hybrid + LogReg,sqli,error_based,681,1.0,0.99853,0.0025
+tfidf_nb,TF-IDF + Naive Bayes,sqli,order_by,700,0.70857,0.70857,0.0015
+tfidf_lr,TF-IDF + LogReg,sqli,order_by,700,0.38857,0.38857,0.0
+tfidf_svm,TF-IDF + Linear SVM,sqli,order_by,700,0.47857,0.47857,0.0
+hand_rf,Hand-crafted + Random Forest,sqli,order_by,700,0.97143,0.97143,0.0015
+hybrid_lr,Hybrid + LogReg,sqli,order_by,700,0.95714,0.95714,0.0025
+tfidf_nb,TF-IDF + Naive Bayes,sqli,stacked,709,0.89422,0.89422,0.002
+tfidf_lr,TF-IDF + LogReg,sqli,stacked,709,0.40056,0.39915,0.0
+tfidf_svm,TF-IDF + Linear SVM,sqli,stacked,709,0.40197,0.40056,0.0
+hand_rf,Hand-crafted + Random Forest,sqli,stacked,709,0.93794,0.93794,0.002
+hybrid_lr,Hybrid + LogReg,sqli,stacked,709,0.95063,0.94922,0.002
+tfidf_nb,TF-IDF + Naive Bayes,sqli,tautology,678,0.88643,0.88643,0.0025
+tfidf_lr,TF-IDF + LogReg,sqli,tautology,678,0.53392,0.53097,0.0
+tfidf_svm,TF-IDF + Linear SVM,sqli,tautology,678,0.5708,0.56785,0.0
+hand_rf,Hand-crafted + Random Forest,sqli,tautology,678,0.80236,0.80088,0.0005
+hybrid_lr,Hybrid + LogReg,sqli,tautology,678,0.82301,0.82301,0.001
+tfidf_nb,TF-IDF + Naive Bayes,sqli,time_blind,753,0.7251,0.7251,0.002
+tfidf_lr,TF-IDF + LogReg,sqli,time_blind,753,0.83798,0.83798,0.0
+tfidf_svm,TF-IDF + Linear SVM,sqli,time_blind,753,0.8911,0.8911,0.0
+hand_rf,Hand-crafted + Random Forest,sqli,time_blind,753,0.98672,0.98672,0.002
+hybrid_lr,Hybrid + LogReg,sqli,time_blind,753,0.97742,0.97742,0.002
+tfidf_nb,TF-IDF + Naive Bayes,sqli,union,712,0.87219,0.87219,0.003
+tfidf_lr,TF-IDF + LogReg,sqli,union,712,0.59691,0.59691,0.0
+tfidf_svm,TF-IDF + Linear SVM,sqli,union,712,0.66713,0.66713,0.0
+hand_rf,Hand-crafted + Random Forest,sqli,union,712,0.99438,0.99438,0.0015
+hybrid_lr,Hybrid + LogReg,sqli,union,712,0.85112,0.85112,0.0015
+tfidf_nb,TF-IDF + Naive Bayes,xss,attr_breakout,767,0.95437,0.95437,0.003
+tfidf_lr,TF-IDF + LogReg,xss,attr_breakout,767,1.0,1.0,0.0
+tfidf_svm,TF-IDF + Linear SVM,xss,attr_breakout,767,1.0,0.99739,0.0
+hand_rf,Hand-crafted + Random Forest,xss,attr_breakout,767,1.0,1.0,0.002
+hybrid_lr,Hybrid + LogReg,xss,attr_breakout,767,1.0,1.0,0.002
+tfidf_nb,TF-IDF + Naive Bayes,xss,data_uri,627,0.77352,0.77352,0.003
+tfidf_lr,TF-IDF + LogReg,xss,data_uri,627,0.61882,0.61244,0.0
+tfidf_svm,TF-IDF + Linear SVM,xss,data_uri,627,0.6236,0.6236,0.0
+hand_rf,Hand-crafted + Random Forest,xss,data_uri,627,0.85646,0.85646,0.0015
+hybrid_lr,Hybrid + LogReg,xss,data_uri,627,0.65391,0.62839,0.0025
+tfidf_nb,TF-IDF + Naive Bayes,xss,event_handler,829,0.95537,0.95537,0.003
+tfidf_lr,TF-IDF + LogReg,xss,event_handler,829,0.97105,0.96864,0.0
+tfidf_svm,TF-IDF + Linear SVM,xss,event_handler,829,0.99517,0.99517,0.0
+hand_rf,Hand-crafted + Random Forest,xss,event_handler,829,0.99397,0.99276,0.0015
+hybrid_lr,Hybrid + LogReg,xss,event_handler,829,1.0,1.0,0.002
+tfidf_nb,TF-IDF + Naive Bayes,xss,js_uri,707,0.96181,0.96181,0.003
+tfidf_lr,TF-IDF + LogReg,xss,js_uri,707,0.99576,0.99576,0.0
+tfidf_svm,TF-IDF + Linear SVM,xss,js_uri,707,0.99717,0.99717,0.0
+hand_rf,Hand-crafted + Random Forest,xss,js_uri,707,0.99151,0.99151,0.0015
+hybrid_lr,Hybrid + LogReg,xss,js_uri,707,0.99293,0.99293,0.002
+tfidf_nb,TF-IDF + Naive Bayes,xss,script_tag,682,0.94135,0.94135,0.003
+tfidf_lr,TF-IDF + LogReg,xss,script_tag,682,0.9912,0.9912,0.0
+tfidf_svm,TF-IDF + Linear SVM,xss,script_tag,682,0.99413,0.99413,0.0
+hand_rf,Hand-crafted + Random Forest,xss,script_tag,682,0.86657,0.86657,0.0015
+hybrid_lr,Hybrid + LogReg,xss,script_tag,682,0.9956,0.9956,0.002
+tfidf_nb,TF-IDF + Naive Bayes,xss,style_based,693,0.94805,0.94805,0.003
+tfidf_lr,TF-IDF + LogReg,xss,style_based,693,0.9899,0.9899,0.0
+tfidf_svm,TF-IDF + Linear SVM,xss,style_based,693,0.99278,0.99134,0.0
+hand_rf,Hand-crafted + Random Forest,xss,style_based,693,1.0,1.0,0.0015
+hybrid_lr,Hybrid + LogReg,xss,style_based,693,1.0,1.0,0.002
+tfidf_nb,TF-IDF + Naive Bayes,xss,template_dom,695,0.96403,0.96403,0.003
+tfidf_lr,TF-IDF + LogReg,xss,template_dom,695,0.92518,0.91799,0.0
+tfidf_svm,TF-IDF + Linear SVM,xss,template_dom,695,0.92806,0.92086,0.0
+hand_rf,Hand-crafted + Random Forest,xss,template_dom,695,0.95683,0.95396,0.0015
+hybrid_lr,Hybrid + LogReg,xss,template_dom,695,0.85755,0.85612,0.002

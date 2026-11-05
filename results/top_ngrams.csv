@@ -1,0 +1,46 @@
+class,ngram,weight
+benign,e ,2.86812
+benign,h,2.42752
+benign,t ,1.98805
+benign,k,1.92678
+benign,e,1.80596
+benign,i,1.61464
+benign,w,1.58964
+benign,n ,1.43573
+benign,: ,1.41609
+benign,t,1.3699
+benign, in ,1.35403
+benign, ,1.34044
+benign,", ",1.33575
+benign, to,1.32069
+benign,in ,1.28637
+sqli,',6.75142
+sqli,--,5.09352
+sqli,-,4.61197
+sqli,and,4.23137
+sqli, or ,4.16914
+sqli,; ,4.11507
+sqli,or ,4.10871
+sqli,;,3.99503
+sqli,and ,3.98178
+sqli,nd ,3.98178
+sqli,|,3.97372
+sqli, or,3.84616
+sqli,/*,3.72867
+sqli,' ,3.69607
+sqli, 1,3.50818
+xss,<,4.92808
+xss,>,4.65806
+xss,(,3.82216
+xss,t(,3.3569
+xss,),3.06049
+xss, on,2.71067
+xss,aler,2.70675
+xss,lert,2.70675
+xss,on,2.70546
+xss,ale,2.70416
+xss,ler,2.64902
+xss,ert(,2.60257
+xss,rt(,2.60257
+xss,${,2.55883
+xss,ri,2.47592
